@@ -1,0 +1,594 @@
+local function mygui()
+local gui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+local gui2 = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+local frame = Instance.new("Frame", gui)
+local text = Instance.new("TextLabel", frame)
+local scrollgui = Instance.new("ScrollingFrame", frame)
+local frame2 = Instance.new("Frame", frame)
+local frame3 = Instance.new("Frame", gui2)
+local offbutton = Instance.new("TextButton", frame3)
+local button = Instance.new("TextButton", frame2)
+local button1 = Instance.new("TextButton", frame2)
+local button2 = Instance.new("TextButton", frame2)
+local button3 = Instance.new("TextButton", frame2)
+local button4 = Instance.new("TextButton", frame2)
+local button5 = Instance.new("TextButton", frame2)
+local button6 = Instance.new("TextButton", frame2)
+local button7 = Instance.new("TextButton", frame2)
+local button8 = Instance.new("TextButton", frame2)
+local button9 = Instance.new("TextButton", frame2)
+local button10 = Instance.new("TextButton", frame2)
+local button11 = Instance.new("TextButton", frame2)
+local button12 = Instance.new("TextButton", frame2)
+local button13 = Instance.new("TextButton", frame2)
+local button14 = Instance.new("TextButton", frame2)
+local button15 = Instance.new("TextButton", frame2)
+local button16 = Instance.new("TextButton", frame2)
+local button17 = Instance.new("TextButton", frame2)
+local button18 = Instance.new("TextButton", frame2)
+local button19 = Instance.new("TextButton", frame2)
+local button20 = Instance.new("TextButton", frame2)
+local button21 = Instance.new("TextButton", frame2)
+local button22 = Instance.new("TextButton", frame2)
+local button23 = Instance.new("TextButton", frame2)
+local button24 = Instance.new("TextButton", frame2)
+local button25 = Instance.new("TextButton", frame2)
+local button26 = Instance.new("TextButton", frame2)
+local button27 = Instance.new("TextButton", frame2)
+local button28 = Instance.new("TextButton", frame2)
+local button29 = Instance.new("TextButton", frame2)
+local button30 = Instance.new("TextButton", frame2)
+local button31 = Instance.new("TextButton", frame2)
+local button32 = Instance.new("TextButton", frame2)
+local button33 = Instance.new("TextButton", frame2)
+local button34 = Instance.new("TextButton", frame2)
+local button35 = Instance.new("TextButton", frame2)
+local button36 = Instance.new("TextButton", frame2)
+local button37 = Instance.new("TextButton", frame2)
+
+frame.Position = UDim2.new(0, 122, 0, -6)
+frame.Size = UDim2.new(0.25, 0, 0.1, 0)
+frame.BackgroundColor3 = Color3.fromRGB(49, 49, 172)
+frame.Active = true
+frame.Draggable = true
+
+text.Size = UDim2.new(0.3, 0, 0.4, 0)
+text.Position = UDim2.new(0, 68, 0.4, 0)
+text.Text = "Best Lua Mod Menu"
+text.TextSize = 14
+text.BackgroundTransparency = 1
+
+offbutton.Size = UDim2.new(1,0,1,0)
+offbutton.Position = UDim2.new(0,-824,1,-308)
+offbutton.BackgroundColor3 = Color3.fromRGB(223,223,223)
+offbutton.Active = true
+offbutton.Draggable = true
+offbutton.BackgroundTransparency = 0.3
+offbutton.Text = "On/Off"
+
+frame3.Size = UDim2.new(0.1,0,0.1,0)
+frame3.Position = UDim2.new(0,896,0,334)
+frame3.Active = true
+frame3.Draggable = false
+
+frame2.Position = UDim2.new(0, 0, 1, 0)
+frame2.Size = UDim2.new(1, 0, 8, 0)
+frame2.Active = true
+
+button.Position = UDim2.new(0, 0, 0, -1)
+button.Size = UDim2.new(1, 0, 0.1, 0)
+button.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button.Active = true
+button.Text = "infinite jump"
+
+button1.Position = UDim2.new(0, 0, 0, 28)
+button1.Size = UDim2.new(0.5, 0, 0.1, 0)
+button1.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button1.Active = true
+button1.Text = "speed (on)"
+
+button23.Position = UDim2.new(0, 115, 0, 28)
+button23.Size = UDim2.new(0.5, 0, 0.1, 0)
+button23.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button23.Active = true
+button23.Text = "speed (off)"
+
+button2.Position = UDim2.new(0, 0, 0, 57)
+button2.Size = UDim2.new(0.5, 0, 0.1, 0)
+button2.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button2.Active = true
+button2.Text = "fly(inf jump v2)(on)"
+
+button24.Position = UDim2.new(0, 114, 0, 57)
+button24.Size = UDim2.new(0.5, 0, 0.1, 0)
+button24.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button24.Active = true
+button24.Text = "fly(inf jump v2)(off)(kills)"
+
+button3.Position = UDim2.new(0, 0, 0, 86)
+button3.Size = UDim2.new(0.5, 0, 0.1, 0)
+button3.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button3.Active = true
+button3.Text = "fake lag (on)"
+
+button25.Position = UDim2.new(0, 114, 0, 86)
+button25.Size = UDim2.new(0.5, 0, 0.1, 0)
+button25.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button25.Active = true
+button25.Text = "fake lag (off)(kills)"
+
+
+
+button4.Position = UDim2.new(0, 0, 0, 114)
+button4.Size = UDim2.new(0.5, 0, 0.1, 0)
+button4.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button4.Active = true
+button4.Text = "jumppower (on)"
+
+button26.Position = UDim2.new(0, 114, 0, 114)
+button26.Size = UDim2.new(0.5, 0, 0.1, 0)
+button26.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button26.Active = true
+button26.Text = "jumppower (off)"
+
+button5.Position = UDim2.new(0, 0, 0, 142)
+button5.Size = UDim2.new(1, 0, 0.1, 0)
+button5.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button5.Active = true
+button5.Text = "VC ANTI SUSPENSION (use it when you are suspended)"
+
+button6.Position = UDim2.new(0, 0, 0, 170)
+button6.Size = UDim2.new(1, 0, 0.1, 0)
+button6.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button6.Active = true
+button6.Text = "chat bypasser"
+
+button7.Position = UDim2.new(0, 0, 0, 198)
+button7.Size = UDim2.new(1, 0, 0.1, 0)
+button7.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button7.Active = true
+button7.Text = "fe pp (tool hub)"
+
+button8.Position = UDim2.new(0, 0, 0, 226)
+button8.Size = UDim2.new(1, 0, 0.1, 0)
+button8.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button8.Active = true
+button8.Text = "fe ball roll"
+
+button9.Position = UDim2.new(0, 0, 0, 255)
+button9.Size = UDim2.new(1, 0, 0.1, 0)
+button9.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button9.Active = true
+button9.Text = "Infinite yield"
+
+button10.Position = UDim2.new(0, 230, 0, 255)
+button10.Size = UDim2.new(0.12, 0, 0.1, 0)
+button10.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button10.Active = true
+button10.Text = ">"
+
+button11.Visible = false
+button12.Visible = false
+button13.Visible = false
+button14.Visible = false
+button15.Visible = false
+button16.Visible = false
+button17.Visible = false
+button18.Visible = false
+button19.Visible = false
+button20.Visible = false
+button21.Visible = false
+button22.Visible = false
+
+button.MouseButton1Click:Connect(function()
+    local InfiniteJumpEnabled = true game:GetService("UserInputService").JumpRequest:connect(function() 	if InfiniteJumpEnabled then 		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping") 	end end)
+end)
+
+button1.MouseButton1Click:Connect(function()
+    Game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+end)
+
+button23.MouseButton1Click:Connect(function()
+Game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+button2.MouseButton1Click:Connect(function()
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function() 	if InfiniteJumpEnabled then 		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping") 	end end)
+while wait() do
+local humanoid = Game.Players.LocalPlayer.Character.Humanoid
+humanoid.Sit = true
+end
+end)
+
+button24.MouseButton1Click:Connect(function()
+Game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+button3.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KBC5NEtJ"))();
+end)
+
+button25.MouseButton1Click:Connect(function()
+Game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+button4.MouseButton1Click:Connect(function()
+Game.Players.LocalPlayer.Character.Humanoid.JumpPower = 200
+end)
+
+button26.MouseButton1Click:Connect(function()
+Game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+button5.MouseButton1Click:Connect(function()
+game:GetService("VoiceChatService"):joinVoice()
+end)
+
+button6.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/bxpasser/refs/heads/main/chat"))();
+end)
+
+button7.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/JBX1WpPy"))();
+end)
+
+button8.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BZr9bGDy", true))()
+end)
+
+button9.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+button10.MouseButton1Click:Connect(function()
+button.Visible = false
+button1.Visible = false
+button2.Visible = false
+button3.Visible = false
+button4.Visible = false
+button5.Visible = false
+button6.Visible = false
+button7.Visible = false
+button8.Visible = false
+button9.Visible = false
+button10.Visible = false
+button23.Visible = false
+button24.Visible = false
+button25.Visible = false
+button26.Visible = false
+
+button11.Position = UDim2.new(0, -28, 0, 255)
+button11.Size = UDim2.new(0.12, 0, 0.1, 0)
+button11.BackgroundColor3 = Color3.fromRGB(243, 0, 40)
+button11.Active = true
+button11.Visible = true
+button11.Text = "<"
+
+button12.Position = UDim2.new(0, 0, 0, -1)
+button12.Size = UDim2.new(1, 0, 0.1, 0)
+button12.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button12.Active = true
+button12.Visible = true
+button12.Text = "Obby creator"
+
+button13.Position = UDim2.new(0, 0, 0, 28)
+button13.Size = UDim2.new(1, 0, 0.1, 0)
+button13.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button13.Active = true
+button13.Visible = true
+button13.Text = "slap battles"
+
+button14.Position = UDim2.new(0, 0, 0, 57)
+button14.Size = UDim2.new(1, 0, 0.1, 0)
+button14.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button14.Active = true
+button14.Visible = true
+button14.Text = "tower of hell"
+
+button15.Position = UDim2.new(0, 0, 0, 86)
+button15.Size = UDim2.new(1, 0, 0.1, 0)
+button15.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button15.Active = true
+button15.Visible = true
+button15.Text = "Mic Up"
+
+button16.Position = UDim2.new(0, 0, 0, 114)
+button16.Size = UDim2.new(1, 0, 0.1, 0)
+button16.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button16.Active = true
+button16.Visible = true
+button16.Text = "touch football"
+
+button17.Position = UDim2.new(0, 0, 0, 142)
+button17.Size = UDim2.new(1, 0, 0.1, 0)
+button17.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button17.Active = true
+button17.Visible = true
+button17.Text = "blox fruits"
+
+button18.Position = UDim2.new(0, 0, 0, 170)
+button18.Size = UDim2.new(1, 0, 0.1, 0)
+button18.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button18.Active = true
+button18.Visible = true
+button18.Text = "the strongest battlegrounds"
+
+button19.Position = UDim2.new(0, 0, 0, 198)
+button19.Size = UDim2.new(1, 0, 0.1, 0)
+button19.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button19.Active = true
+button19.Visible = true
+button19.Text = "breaking point"
+
+button20.Position = UDim2.new(0, 0, 0, 226)
+button20.Size = UDim2.new(1, 0, 0.1, 0)
+button20.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button20.Active = true
+button20.Visible = true
+button20.Text = "talent show (bypasses the stage)"
+
+button21.Position = UDim2.new(0, 0, 0, 255)
+button21.Size = UDim2.new(1, 0, 0.1, 0)
+button21.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button21.Active = true
+button21.Visible = true
+button21.Text = "murder vs sherrif duel"
+
+button22.Position = UDim2.new(0, 230, 0, 255)
+button22.Size = UDim2.new(0.12, 0, 0.1, 0)
+button22.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button22.Active = true
+button22.Visible = true
+button22.Text = ">"
+end)
+
+button11.MouseButton1Click:Connect(function()
+button.Visible = true
+button1.Visible = true
+button2.Visible = true
+button3.Visible = true
+button4.Visible = true
+button5.Visible = true
+button6.Visible = true
+button7.Visible = true
+button8.Visible = true
+button9.Visible = true
+button10.Visible = true
+button23.Visible = true
+button24.Visible = true
+button25.Visible = true
+button26.Visible = true
+button11.Visible = false
+button12.Visible = false
+button13.Visible = false
+button14.Visible = false
+button15.Visible = false
+button16.Visible = false
+button17.Visible = false
+button18.Visible = false
+button19.Visible = false
+button20.Visible = false
+button21.Visible = false
+button22.Visible = false
+end)
+
+button12.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hJDDycxN"))();
+end)
+
+button13.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4yqPxJb9"))();
+end)
+
+button14.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scowscripts/scowsscripts/main/TowerOfHacks/Script", true))()
+end)
+
+button15.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EnterpriseExperience/MicUpSource/refs/heads/main/v6-beta')))()
+end)
+
+button16.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Touch-Football-Rocket-Hub-20220"))()
+end)
+
+button17.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+end)
+
+button18.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/Games_Scripts/main/obf_MdXq4M1i1pVDvZ33KpNjtP36os7GLhGqAJQ4cp6798593h1EZ3FL5kOgMC9ynvnm.lua.txt'),true))()
+end)
+
+button19.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H4R7NHacks/Obfuscated/master/Breaking%20Point%20H4R7N%20Hack.lua"))()
+end)
+
+button20.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/x9Wh2iH1"))()
+end)
+
+button21.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/soft-cc/Soft.cc/refs/heads/main/scripts/MVSD.lua')))()
+end)
+
+button22.MouseButton1Click:Connect(function()
+button11.Visible = false
+button12.Visible = false
+button13.Visible = false
+button14.Visible = false
+button15.Visible = false
+button16.Visible = false
+button17.Visible = false
+button18.Visible = false
+button19.Visible = false
+button20.Visible = false
+button21.Visible = false
+button22.Visible = false
+
+button27.Position = UDim2.new(0, -28, 0, 255)
+button27.Size = UDim2.new(0.12, 0, 0.1, 0)
+button27.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
+button27.Active = true
+button27.Visible = true
+button27.Text = "<"
+
+button28.Position = UDim2.new(0, 0, 0, -1)
+button28.Size = UDim2.new(1, 0, 0.1, 0)
+button28.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button28.Active = true
+button28.Visible = true
+button28.Text = "replication ui r6 tools"
+
+button29.Position = UDim2.new(0, 0, 0, 28)
+button29.Size = UDim2.new(1, 0, 0.1, 0)
+button29.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button29.Active = true
+button29.Visible = true
+button29.Text = "ro chip panel"
+
+button30.Position = UDim2.new(0, 0, 0, 57)
+button30.Size = UDim2.new(1, 0, 0.1, 0)
+button30.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button30.Active = true
+button30.Visible = true
+button30.Text = "Hitbox GUI"
+
+button31.Position = UDim2.new(0, 0, 0, 86)
+button31.Size = UDim2.new(1, 0, 0.1, 0)
+button31.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button31.Active = true
+button31.Visible = true
+button31.Text = "Nuke Vs City (Game GUI)"
+
+button32.Position = UDim2.new(0, 0, 0, 114)
+button32.Size = UDim2.new(1, 0, 0.1, 0)
+button32.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button32.Active = true
+button32.Visible = true
+button32.Text = "THICC NEGATIVE HUB (MINE)"
+
+button33.Position = UDim2.new(0, 0, 0, 142)
+button33.Size = UDim2.new(1, 0, 0.1, 0)
+button33.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button33.Active = true
+button33.Visible = true
+button33.Text = "ghost hub"
+
+button34.Position = UDim2.new(0, 0, 0, 170)
+button34.Size = UDim2.new(1, 0, 0.1, 0)
+button34.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button34.Active = true
+button34.Visible = true
+button34.Text = "fly GUI"
+
+button35.Position = UDim2.new(0, 0, 0, 198)
+button35.Size = UDim2.new(1, 0, 0.1, 0)
+button35.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button35.Active = true
+button35.Visible = true
+button35.Text = "NO COOLDOWN"
+
+button36.Position = UDim2.new(0, 0, 0, 226)
+button36.Size = UDim2.new(1, 0, 0.1, 0)
+button36.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button36.Active = true
+button36.Visible = true
+button36.Text = "AIMBOT (cant turn it off)"
+
+button37.Position = UDim2.new(0, 0, 0, 255)
+button37.Size = UDim2.new(1, 0, 0.1, 0)
+button37.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+button37.Active = true
+button37.Visible = true
+button37.Text = "Orca (good looking gui)"
+end)
+
+button27.MouseButton1Click:Connect(function()
+button11.Visible = true
+button12.Visible = true
+button13.Visible = true
+button14.Visible = true
+button15.Visible = true
+button16.Visible = true
+button17.Visible = true
+button18.Visible = true
+button19.Visible = true
+button20.Visible = true
+button21.Visible = true
+button22.Visible = true
+button27.Visible = false
+button28.Visible = false
+button29.Visible = false
+button30.Visible = false
+button31.Visible = false
+button32.Visible = false
+button33.Visible = false
+button34.Visible = false
+button35.Visible = false
+button36.Visible = false
+button37.Visible = false
+end)
+
+button28.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Ku0dS1Kz"))();
+end)
+
+button29.MouseButton1Click:Connect(function()
+if "you wanna use rochips universal" then
+    local z_x,z_z="gzrux646yj/raw/main.ts","https://glot.io/snippets/"
+    local im,lonely,z_c=task.wait,game,loadstring
+    z_c(lonely:HttpGet(z_z..""..z_x))()
+    return ("This will load in about 2 - 30 seconds" or "according to your device and executor")
+end
+end)
+
+button30.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/LWuVzYJY"))()
+end)
+
+button31.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+end)
+
+button32.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/fSJdqQJs"))();
+end)
+
+button33.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+button34.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/nP2fjndA"))();
+end)
+
+button35.MouseButton1Click:Connect(function()
+g = hookfunction(wait, function(seconds) 
+return g(0) 
+end)
+end)
+
+button36.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/jZw02Bvy"))();
+end)
+
+button37.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua'),true))()
+end)
+
+offbutton.MouseButton1Click:Connect(function()
+if frame.Visible == true then
+frame.Visible = false
+elseif frame.Visible == false then
+frame.Visible = true
+end
+end)
+end
+
+mygui()
+
+game.Players.LocalPlayer.CharacterAdded:Connect(function()
+mygui()
+end)
