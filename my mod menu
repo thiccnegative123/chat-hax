@@ -539,7 +539,7 @@ button37.Visible = false
 end)
 
 button28.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/Ku0dS1Kz"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/idk/refs/heads/main/replication%20UI"))();
 end)
 
 button29.MouseButton1Click:Connect(function()
