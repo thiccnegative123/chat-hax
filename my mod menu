@@ -1,6 +1,13 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "WELCOME TO THE BEST MOD MENU";
+    Text = "Made by Haxarebest1";
+    Duration = 5
+    })
 local function mygui()
 local gui = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+gui.ResetOnSpawn = false
 local gui2 = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
+gui2.ResetOnSpawn = false
 local frame = Instance.new("Frame", gui)
 local text = Instance.new("TextLabel", frame)
 local scrollgui = Instance.new("ScrollingFrame", frame)
@@ -226,7 +233,7 @@ game:GetService("VoiceChatService"):joinVoice()
 end)
 
 button6.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/bxpasser/refs/heads/main/chat"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/bxpasser/refs/heads/main/chat%20bypasser%20v2"))()
 end)
 
 button7.MouseButton1Click:Connect(function()
@@ -284,7 +291,7 @@ button14.Size = UDim2.new(1, 0, 0.1, 0)
 button14.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
 button14.Active = true
 button14.Visible = true
-button14.Text = "tower of hell"
+button14.Text = "Zombie Attack"
 
 button15.Position = UDim2.new(0, 0, 0, 86)
 button15.Size = UDim2.new(1, 0, 0.1, 0)
@@ -312,7 +319,7 @@ button18.Size = UDim2.new(1, 0, 0.1, 0)
 button18.BackgroundColor3 = Color3.fromRGB(0, 217, 255)
 button18.Active = true
 button18.Visible = true
-button18.Text = "the strongest battlegrounds"
+button18.Text = "lucky block battlegrounds"
 
 button19.Position = UDim2.new(0, 0, 0, 198)
 button19.Size = UDim2.new(1, 0, 0.1, 0)
@@ -382,7 +389,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/4yqPxJb9"))();
 end)
 
 button14.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/scowscripts/scowsscripts/main/TowerOfHacks/Script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/idk/refs/heads/main/zombie%20attack"))();
 end)
 
 button15.MouseButton1Click:Connect(function()
@@ -398,7 +405,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 end)
 
 button18.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/Games_Scripts/main/obf_MdXq4M1i1pVDvZ33KpNjtP36os7GLhGqAJQ4cp6798593h1EZ3FL5kOgMC9ynvnm.lua.txt'),true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/idk/refs/heads/main/lucky%20block%20battlegrounds"))();
 end)
 
 button19.MouseButton1Click:Connect(function()
@@ -495,7 +502,7 @@ button36.Size = UDim2.new(1, 0, 0.1, 0)
 button36.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 button36.Active = true
 button36.Visible = true
-button36.Text = "AIMBOT (cant turn it off)"
+button36.Text = "AIMBOT GUI"
 
 button37.Position = UDim2.new(0, 0, 0, 255)
 button37.Size = UDim2.new(1, 0, 0.1, 0)
@@ -553,7 +560,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACK
 end)
 
 button32.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/fSJdqQJs"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thiccnegative123/idk/refs/heads/main/my%20hub"))()
 end)
 
 button33.MouseButton1Click:Connect(function()
@@ -571,7 +578,7 @@ end)
 end)
 
 button36.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/jZw02Bvy"))();
+loadstring(game:HttpGet("https://pastebin.com/raw/qtZt0Nzb"))()
 end)
 
 button37.MouseButton1Click:Connect(function()
@@ -588,7 +595,3 @@ end)
 end
 
 mygui()
-
-game.Players.LocalPlayer.CharacterAdded:Connect(function()
-mygui()
-end)
